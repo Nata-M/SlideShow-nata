@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    box-sizing: border-box;
+    width: 1000px;
+    margin: 50px auto;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.container:hover {
+    box-shadow: 2px 2px 4px 4px grey;
+}
+/* .myslides {
+    max-width: 1200px;
+    margin: 50px auto;
+    height: 550px;
+} */
+.myslides {
+    height: 100%;
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    color: rgb(245, 241, 241);
+    font-size: 25px;
+    width: auto;
+    top: 48%;
+    padding: 16px;
+    background-color: none;
+
+}
+.next {
+    right: 0;
+}
+.prev:hover, .next:hover {
+    background-color: rgb(17, 16, 16);
+    transition-duration: 0.7s;
+}
